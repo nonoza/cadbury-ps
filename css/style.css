@@ -1,0 +1,613 @@
+body {
+    margin: 0;
+    background-color: #e3bf62!important;
+    height: 100%;
+}
+ 
+ .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+img.logo {
+    z-index: 9;
+    position: relative;
+}
+.main-menu ul {
+    padding: 20px;
+    }
+    
+    .main-menu li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 5px 0 55px;
+    font-size: 18px;
+
+    }
+    
+    .main-menu li a {
+    color:#36236a;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Gotham Bold';
+    font-style: normal;
+    font-weight: normal;
+    }
+
+    #cta{
+        background-color:#ce0a86;
+        border-radius: 14px;
+        padding: 5px 14px;
+        color:#ffffff;
+    }
+    li.cta a {
+        color: #ffffff;
+    }
+    /* style for the line */
+    .first-line {
+        position: absolute;
+        top: 65px;
+    }
+    div#disclamer-text {
+        font-weight: bold;
+    }
+    .heart-icons {
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        left: 200px;
+        top: 624px;
+    }
+
+    .heart-icons img{
+        width: 50%;
+    }
+    .disclamer,.competition-text {
+        font-family: 'Gotham Book';
+        color: #fff;
+        font-size: 13.49px;
+    }
+    .disclamer p {
+        margin-top: 144px;
+    }
+    .second-line {
+        position: relative;
+        top: 12px;
+    }
+    .intro-copy p {
+        padding: 58px 0px 47px 9px;
+        font-size:2.4rem;
+        color: #ffffff;
+        font-family: 'Gotham Book';
+        font-weight: 600;
+        line-height:1.2;
+    }
+    .intro-copy-2 h2 {
+        font-size: 3.313rem;
+        color: #36236a;
+        font-family: 'Gotham Bold';
+    
+      
+        margin-bottom: -1px;
+    }
+   
+    .prize-heading {
+        font-size: 31.5px;
+        text-transform: uppercase;
+        color: #ce0a86;
+        font-family: 'Gotham Bold';
+        margin-bottom: auto;
+    }
+    .life-coaching-copy p,.pamper-copy p, .fabulous-prices,.shopping-vouchers-copy p, .airtime-copy,.sorbet-copy p{
+        font-size: 25px;
+        width: 386px;
+        font-family: 'Gotham Book';
+        color: #ffffff;
+        line-height: 1.3;
+   
+    }
+    .header-bg {
+        background: url(../images/bg/say-it-like-it-is.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:150vh;
+    }
+    .background-1 {
+        background: url(../images/bg/bg-2.png);
+        background-size: cover;
+        background-repeat:no-repeat;
+    }
+    
+    .background-2{
+        background: url(../images/bg/bg-2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100%;
+        padding-bottom: 122px;
+        max-width: 100%;
+  
+    }
+    .background-3{
+        background: url("../images/bg/bg-3.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 122px;
+        max-width: 100%;
+
+    }
+    .background-4{
+        background: url("../images/bg/bg-4.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 122px;
+        max-width: 100%;
+    }
+    .background-5{
+        background: url("../images/bg/bg-5.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 195px;
+    }
+    .background-6{
+        background: url("../images/bg/bg-6.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    .prize-images img {
+        width: 767px;
+    }
+    .first-price,.third-price,.forth-price {
+        display: flex;
+        flex-direction: row;
+    }
+    .life-coaching-copy {
+        position: relative;
+        top: 199px;
+    }
+    .second-price,.firth-price {
+        display: flex;
+        flex-direction:row-reverse;
+    }
+    #copy-reverse{
+        text-align: right;
+    }
+    .pamper-copy {
+        position: relative;
+        top: 228px;
+    }
+    p#welness-alignment {
+        width: 414px;
+    }
+    .third-price img {
+        margin-top: 64px;
+    }
+    .shopping-vouchers-copy {
+        position: relative;
+        top: 259px;
+    }
+    .fabulous p {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-family: 'Gotham Bold';
+        font-size: 44.67px;
+        margin-top: -75px;
+         line-height: 1;
+
+    }
+    .third-line {
+        margin-top: 144px;
+    }
+    #white-heading{
+        color: #ffffff;
+    }
+    .airtime-copy,.sorbet-copy {
+        margin-top: 161px;
+    }
+    .firth-price {
+        position: relative;
+        bottom: 152px;
+    }
+    .forth-line {
+        margin-top: -171px;
+    }
+    .swiper {
+        width: 600px;
+      
+      }
+   
+    iframe {
+        width: 800px;
+        height: 500px;
+        border: none;
+    }
+    .msg-input-wrapper.fixed-bottom {
+        border: none;
+    }
+    
+    .sorbet-copy {
+        margin-right: -98px;
+    }
+    .swiper {
+        width: 96%;
+    }
+    .swiper-slide {
+        text-align: center;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after {
+        line-height: 9;
+        background: #e3bf62;
+        width: 100%;
+        color: #33036f;
+        font-size: 18px;
+        text-align: center;
+        font-weight: bolder;
+        border-radius: 300px;
+    }
+    
+   img.ps-winnig {
+        width: 50%;
+    }
+    li#cta a {
+        color: #fff;
+    }
+    iframe {
+        width: 100%;
+        height: 500px;
+        border: none;
+    }
+    iframe {
+        position: relative;
+        top: 139px;
+    }
+   
+    .fixed-top {
+        background-color: #d5128f!important;
+    }
+   
+    .chatbox {
+        bottom: 77px!important;
+        font-size: 75%;
+        max-height: 96%;
+        overflow-y: auto;
+        padding: 102px 6em 10em!important;
+        width: 96%;
+        position: absolute;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        list-style: none;
+    }
+    .sent-withd-msg p {
+        background: #ffffff none repeat scroll 0 0;
+        color: #382461;
+        padding: 19px 23px 9px 22px;
+    }
+    .msg-input-wrapper {
+        background-color: #c61189;
+        border-style: none;
+    }
+    input#Message {
+        background-color: #f0c1e0;
+        position: relative;
+        top: 25px;
+        border-radius: 19px;
+        width: 50%;
+    }
+    .swiper-slide img {
+        width: 50%!important; 
+    }
+    .swiper-button-next:after, .swiper-button-prev:after {
+        font-family: swiper-icons;
+        font-size: 24px!important;
+        text-transform: none!important;
+        line-height: 0.6!important;
+        padding: 18px;
+         border-radius: 67%;
+         width: 45px;
+        height: 44px;
+        font-weight: bolder;
+    }
+
+    @media only screen and (max-width: 300px){
+        .main-menu li {
+            margin: 0 11px 0px 0px;
+            font-size: 1.40vw;
+        }
+        .header-bg{
+            height: 40vh;
+        }
+        .swiper {
+            margin-bottom: 62px;
+        }
+    }
+    /* small devices */
+    @media only screen and (max-width: 600px){
+        .first-line {
+            position: absolute;
+            top: 34px;
+        }
+        .swiper {
+            margin-bottom: 62px;
+        }
+        .header-bg{
+            height: 40vh;
+        }
+    .first-price, .third-price, .forth-price{
+        flex-direction: column;
+    }
+   
+    .second-price, .firth-price{
+        flex-direction: column;
+    }
+    .prize-images img {
+        width: 351px;
+    }
+    .third-price img {
+        margin-top: 8px;
+    }
+    .second-price img {
+        margin-top: -3px;
+    }
+    p#welness-alignment {
+        width: 301px;
+     
+    }
+    .disclamer,.competition-text {
+        font-size: 3vw;
+    }
+    .life-coaching-copy p, .pamper-copy p, .fabulous-prices, .shopping-vouchers-copy p, .airtime-copy, .sorbet-copy p {
+    font-size: 3.70vw;
+    text-align: center;
+    width: 261px;
+    margin: auto;
+    }
+    .intro-copy, .intro-copy-2 p {
+       
+        font-size: 13.17px;
+       
+    }
+    img.logo {
+        width: 91px;
+    }
+    .main-menu li {
+     
+        margin: 0 5px 0 0px;
+        font-size: 10px;
+    }
+    .life-coaching-copy {
+        top: -32px;
+        text-align: center;
+    }
+    .pamper-copy {
+        top:0px;
+    }
+    .shopping-vouchers-copy {
+        top: 0;
+        text-align: center;
+    }
+    .sorbet-copy {
+    margin-right: 0px;
+    }
+    .background-2 {
+    background: url(../images/bg/mobi/mobi_bg_1.png);
+    padding-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .background-3 {
+      background: url("../images/bg/mobi/mobi_bg_3.png");
+        padding-bottom:0px;
+        background-repeat: no-repeat;
+    background-size:cover;
+    }
+    
+    .background-4 {
+        background: url("../images/bg/mobi/mobi_bg_4.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        padding-bottom: 33px;
+      }
+      .prize-heading {
+        font-size: 6vw;
+    }
+    h6.prize-heading {
+        text-align: center;
+    }
+    .fabulous p {
+        font-size:3.50vw;
+        margin-top: -23px;
+    }
+    .airtime-copy, .sorbet-copy {
+     margin-top:0px;
+    }
+    .firth-price {
+        position: relative;
+        bottom: 12px;
+    }
+    .forth-line {
+        margin-top:15vw;
+    }
+    .background-5 {
+        padding-bottom:43px;
+    }
+    .intro-copy {
+        padding: 16px 2px 4px 5px;
+    }
+    .prize-images {
+        text-align: center;
+    }
+    iframe {
+        position: relative;
+        top: 0px; 
+    }
+
+}
+/*smaller screens */
+@media screen and (max-width: 400px){
+    .main-menu li {
+        margin: 0 11px 0px 0px;
+        font-size: 1.50vw;
+    }
+    
+    .intro-copy-2 h2 {
+        font-size: 5vw;
+    }
+ 
+    .header-bg{
+        height: 40vh;
+    }
+    .first-line {
+        position: absolute;
+        top: 34px;
+    }
+    
+}
+@media screen and (min-width: 600px){
+ 
+ 
+    .main-menu li {
+        margin: 0 29px 3px 0;
+        font-size: 1rem;
+    }
+ 
+}
+@media only screen and (max-width: 1024){
+    .main-menu li {
+        margin: 0 5px 0 0px;
+        font-size: 10px;
+    }
+}
+    /* For PC with minimum resolution till your PC resolution */ 
+    @media screen and (min-width: 769px) and (max-width: 1400px) {
+        .background-3 {
+            padding-bottom:0px;
+         }
+
+         
+         
+      }
+      /*ipad pro*/
+      @media all and (device-width: 1024px) {
+        .prize-images img {
+            width: 600px;
+        }
+        .header-bg {
+            height: 59vh;
+        }
+    
+      }
+            /*ipad*/
+      @media all and (device-width: 768px){
+        .header-bg {
+            height: 59vh;
+        }
+        .first-price, .third-price, .forth-price{
+            flex-direction: column;
+        }
+       
+        .second-price, .firth-price{
+            flex-direction: column;
+        }
+        .sorbet-copy {
+            margin-right:0;
+            text-align:center;
+        }
+        .life-coaching-copy {
+            top:0;
+            text-align: center;
+        }
+        .pamper-copy {
+        top:0px;
+        }
+        .shopping-vouchers-copy {
+            top: 0;
+        }
+        .airtime-copy, .sorbet-copy {
+            margin-top: 0;
+            text-align: center;
+            position: relative;
+            left:0px;
+        }
+        #copy-reverse {
+            text-align: center;
+        }
+        p#welness-alignment,.life-coaching-copy p,.shopping-vouchers-copy,.airtime-copy, .sorbet-copy {
+            margin-left: 180px;
+        }
+        #copy-reverse h6 {
+            left: -92px   
+        }
+        .shopping-vouchers-copy p{
+            text-align: center;
+        }
+        .forth-line {
+            margin-top:0px;
+        }
+        .prize-images img {
+            text-align: center;
+            margin-top: 100px;
+        }
+        .intro-copy {
+            font-size: 22.17px;
+        }
+        .intro-copy-2 p {
+            font-size: 42px;
+        }
+        .background-5 {
+            padding-bottom: 228px;
+        }
+}
+/* Screens with Higher dimensions */
+
+@media screen and (min-width: 1401px){
+
+    .intro-copy {
+        padding: 64px 109px 134px 134px;
+        font-size: 42.17px;
+    }
+    .background-2 {
+        padding-bottom: 133px;
+    }
+    .background-3 {
+       padding-bottom:5px;
+    }
+    .background-4 {
+        padding-bottom: 477px;
+    }
+    .intro-copy-2 p {
+        font-size: 65.33px;
+    }
+    
+    .life-coaching-copy p, .pamper-copy p, .fabulous-prices, .shopping-vouchers-copy p, .airtime-copy, .sorbet-copy p{
+        font-size:35px;
+        width: 550px;
+    }
+    p#welness-alignment {
+        width: 550px;
+    }
+    .forth-price {
+        top: -122px;
+    }
+    .background-5 {
+        padding-bottom: 803px;
+    }
+    .shopping-vouchers-copy {
+        top: 454px;
+    }
+    .third-price img {
+        position: relative;
+        top: 147px;
+    }
+    .third-line {
+        position: relative;
+        top: 400px;
+    }
+    .firth-price {
+        bottom: -113px;
+    }
+    .forth-line {
+        position: relative;
+        top: 480px;
+    }
+}
